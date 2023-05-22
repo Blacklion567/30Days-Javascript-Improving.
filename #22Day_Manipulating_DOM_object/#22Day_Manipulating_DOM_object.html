@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22Day_manipulating_DOM_object</title>
+</head>
+
+<body>
+
+    <h1>Removing child Node</h1>
+    <h2>Asabeneh Yetayeh challenges in 2020</h1>
+    <ul>
+        <li>30DaysOfPython Challenge Done</li>
+        <li>30DaysOfJavaScript Challenge Done</li>
+        <li>30DaysOfReact Challenge Coming</li>
+        <li>30DaysOfFullStack Challenge Coming</li>
+        <li>30DaysOfDataAnalysis Challenge Coming</li>
+        <li>30DaysOfReactNative Challenge Coming</li>
+        <li>30DaysOfMachineLearning Challenge Coming</li>
+    </ul>
+
+    <h1>Removing child Node</h1>
+    <h2>Asabeneh Yetayeh challenges in 2020</h1>
+    <ul>
+        <li>30DaysOfPython Challenge Done</li>
+        <li>30DaysOfJavaScript Challenge Done</li>
+        <li>30DaysOfReact Challenge Coming</li>
+        <li>30DaysOfFullStack Challenge Coming</li>
+        <li>30DaysOfDataAnalysis Challenge Coming</li>
+        <li>30DaysOfReactNative Challenge Coming</li>
+        <li>30DaysOfMachineLearning Challenge Coming</li>
+    </ul>
+
+
+
+    <script>
+        let textName = document.createElement('h1')
+        textName.className = 'textName'
+        textName.style.fontSize = '24px'
+        textName.textContent = 'This is a HTML Element'
+
+        console.log(textName)
+
+        let title
+        for (let i = 0; i < 3; i++) {
+            title = document.createElement('h1')
+            title.className = 'title'
+            title.style.fontSize = '24px'
+            title.textContent = i
+            title.style.color = 'green   '
+            console.log(title)
+        }
+
+
+        // creating multiple elements and appending to parent element
+        let textName1
+        for (let i = 0; i < 3; i++) {
+            textName1 = document.createElement('h1')
+            textName1.className = 'textName1'
+            textName1.style.fontSize = '24px'
+            textName1.textContent = i
+            textName1.style.color = 'Green'
+            document.body.appendChild(textName1)
+        }
+
+
+        const ul = document.querySelector('ul')
+        const lists = document.querySelectorAll('li')
+        for (const list of lists) {
+            ul.removeChild(list)
+        }
+
+        const ul1 = document.querySelector('ul')
+        ul1.innerHTML = ''
+    </script>
+
+
+
+
+</body>
+
+</html>
