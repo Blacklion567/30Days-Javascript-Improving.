@@ -465,9 +465,9 @@ A collection of one or more characters between two single quotes, double quotes,
 
 ```js
 'a'
-'Asabeneh'
-"Asabeneh"
-'Finland'
+'Blacklion567'
+"Blacklion567"
+'Philippines'
 'JavaScript is a beautiful programming language'
 'I love teaching'
 'I hope you are enjoying the first day'
@@ -603,18 +603,18 @@ The nameOfVriable is the name that stores different data of value. See below for
 
 ```js
 // Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
+let firstName = 'Blacklion567' // first name of a person
+let lastName = 'Phobos' // last name of a person
+let country = 'Philippines' // country
+let city = 'Cebu' // capital city
 let age = 100 // age in years
-let isMarried = true
+let isSingle = true
 
 console.log(firstName, lastName, country, city, age, isMarried)
 ```
 
 ```sh
-Asabeneh Yetayeh Finland Helsinki 100 true
+Blacklion567 Phobos Philippines Cebu 100 true
 ```
 
 ```js
@@ -632,12 +632,12 @@ console.log(gravity, boilingPoint, PI)
 
 ```js
 // Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
-let name = 'Asabeneh', job = 'teacher', live = 'Finland'
+let name = 'Blacklion567', job = 'teacher', live = 'Finland'
 console.log(name, job, live)
 ```
 
 ```sh
-Asabeneh teacher Finland
+Blacklion567 teacher Finland
 ```
 
 When you run _index.html_ file in the 01-Day folder you should get this:
