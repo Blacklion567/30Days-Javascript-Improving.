@@ -36,8 +36,8 @@
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
 <div>
-<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
-<a href = "https://web.facebook.com/Copypaste.parasure567"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
+<small>Support the <strong>author</strong> to create more educational materials</small> <br />
+<a href = "https://web.facebook.com/Copypaste.parasure567">Click Me!!..</a>
 </div>
 
 <div align="center">
@@ -102,7 +102,7 @@
 
 ## Introduction
 
-**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge, you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge,  you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the dedicated [telegram group](https://t.me/ThirtyDaysOfJavaScript). 
+**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. In this challenge, you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. In the end of the challenge,  you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the dedicated [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
 **A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
 
@@ -113,7 +113,7 @@ JavaScript is used **_to add interactivity to websites, to develop mobile apps, 
 programming language for last ten years and is the most used programming language on
 GitHub.
 
-This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you. 
+This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. Subscribe the channel, comment and ask questions on YouTube vides and be proactive, the author will eventually notice you.
 
 The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfJavaScript challenge. You can leave your testimonial on this [link](https://testimonial-vdzd.onrender.com//)
 
@@ -144,7 +144,7 @@ After downloading double click and install
 We can check if node is installed on our local machine by opening our device terminal or command prompt.
 
 ```sh
-asabeneh $ node -v
+Blacklion567 $ node -v
 v12.14.0
 ```
 
@@ -226,8 +226,8 @@ We can add comments to our code. Comments are very important to make code more r
 **Example: Single Line Comment**
 
 ```js
-// This is the first comment  
-// This is the second comment  
+// This is the first comment
+// This is the second comment
 // I am a single line comment
 ```
 
@@ -235,9 +235,9 @@ We can add comments to our code. Comments are very important to make code more r
 
 ```js
 /*
-This is a multiline comment  
- Multiline comments can take multiple lines  
- JavaScript is the language of the web  
+This is a multiline comment
+ Multiline comments can take multiple lines
+ JavaScript is the language of the web
  */
 ```
 
@@ -409,7 +409,7 @@ External scripts in the _body_:
     <title>30DaysOfJavaScript:External script</title>
   </head>
   <body>
-    <!-- JavaScript external link could be in the header or in the body --> 
+    <!-- JavaScript external link could be in the header or in the body -->
     <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script -->
     <script src="introduction.js"></script>
   </body>
@@ -511,7 +511,7 @@ let emptyValue = null
 To check the data type of a certain variable, we use the **typeof** operator. See the following example.
 
 ```js
-console.log(typeof 'Asabeneh') // string
+console.log(typeof 'Blacklion567') // string
 console.log(typeof 5) // number
 console.log(typeof true) // boolean
 console.log(typeof null) // object type
@@ -528,17 +528,17 @@ There are two ways of commenting:
 
 ```js
 // commenting the code itself with a single comment
-// let firstName = 'Asabeneh'; single line comment
-// let lastName = 'Yetayeh'; single line comment
+// let firstName = 'Blacklion567'; single line comment
+// let lastName = 'Aristides'; single line comment
 ```
 
 Multiline commenting:
 
 ```js
 /*
-  let location = 'Helsinki';
+  let location = 'Philippines';
   let age = 100;
-  let isMarried = true;
+  let isSingle = true;
   This is a Multiple line comment
 */
 ```
@@ -565,7 +565,7 @@ country
 city
 capitalCity
 age
-isMarried
+isSingle
 
 first_name
 last_name
@@ -610,7 +610,7 @@ let city = 'Cebu' // capital city
 let age = 100 // age in years
 let isSingle = true
 
-console.log(firstName, lastName, country, city, age, isMarried)
+console.log(firstName, lastName, country, city, age, isSingle)
 ```
 
 ```sh
@@ -662,7 +662,7 @@ When you run _index.html_ file in the 01-Day folder you should get this:
 10. Declare two variables _myAge_ and _yourAge_ and assign them initial values and log to the browser console.
 
 ```sh
-I am 25 years old.
+I am 20 years old.
 You are 30 years old.
 ```
 
